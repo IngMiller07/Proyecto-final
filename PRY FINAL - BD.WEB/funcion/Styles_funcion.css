@@ -1,0 +1,17 @@
+body {
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana', sans-serif;
+    }
+    /* Cambiar el color del texto de los enlaces de navegación */
+
+.carousel-caption h5 {
+    font-size: 24px; /* Cambia el tamaño de la fuente */
+    font-weight: bold; /* Hace que el texto sea negrita */
+    text-transform: uppercase; /* Convierte el texto en mayúsculas */
+  }
+/* Estilo para las tarjetas */

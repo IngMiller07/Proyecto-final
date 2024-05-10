@@ -1,0 +1,136 @@
+body {
+    background-color: #ffffff;
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      font-family: 'Verdana', sans-serif;
+    }
+
+    /* Cambiar el color del texto del botón de búsqueda */
+    .btn-outline-success {
+      color: #007bff; /* Azul para el color del texto del botón de búsqueda */
+    }
+    .navbar-brand {
+    font-size: 50px;
+    color: #fbfbfb;
+   }
+   /* Estilos personalizados */
+    .mptitulo_medio {
+      font-family: 'Arial Black', sans-serif;
+      font-size: 2.5rem;
+    }
+    .mpparrafo_medio {
+      font-size: 1.2rem;
+    }
+    .contenedor-principal p.lead {
+
+      font-size: 1.1rem;
+    }
+   .contenedor-principal {
+      text-align: center;
+      color: rgb(0, 0, 0);
+      font-size: 30px;
+    }
+
+    .mppersonajes {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .mpimage-box {
+      text-align: center;
+      margin-bottom: 20px;
+      margin-top: 15px;
+    }
+
+    .mpInfopersonaje {
+      text-align: center;
+      color: #000000;
+    }
+
+    .rounded-img {
+      border-radius: 50%;
+      width: 200px; /* Tamaño de las imágenes */
+      height: 200px; /* Tamaño de las imágenes */
+      object-fit: cover; /* Para mantener la relación de aspecto */
+    }
+
+    /* Estilos para centrar el video con el texto */
+    .video-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center; /* Centrar el texto */
+    }
+
+    .video-container p {
+      width: 100%; /* Ancho del párrafo */
+      margin-top: 15px; /* Espacio entre el video y el párrafo */
+      color: #000000;
+    }
+   /* Estilos para las tarjetas del portafolio */
+    .contenedor-portafolio {
+      padding: 50px 0; /* Espacio alrededor del portafolio */
+    }
+
+    .card {
+      margin-bottom: 30px; /* Espacio entre las tarjetas */
+      text-align: center; /* Centrar el texto */
+      font-size: 30px;
+    }
+
+    .card-text {
+      font-size: 30px; /* Tamaño del texto */
+    }
+    /* Estilos para el título y texto del portafolio */
+  .portafolio-titulo {
+    font-size: 36px;
+    font-weight: bold;
+    color: #000000; /* Rojo oscuro */
+    margin-bottom: 30px;
+  }
+
+  .portafolio-texto {
+    font-size: 18px;
+    color: #000000; /* Azul oscuro */
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+  }
+  .mapa_cul {
+      padding: 50px 0; /*spacio alrededor de la sección */
+      text-align: center; /* Centra el contenido */
+    }
+
+    .titulo_map h1 {
+      font-size: 39px; /* Tamaño del título */
+      color: #000000; /* Color del título */
+      margin-bottom: 30px; /* Espacio inferior */
+    }
+
+    .mapa_iframe {
+      width: 100%; /* Establece el ancho al 100% */
+      height: 400px; /* Altura fija del mapa */
+      border: 0; /* Elimina el borde */
+    }
+    .mpcontac-title {
+    color: #000000; /* Color blanco */
+    font-size: 50px;
+    }
+    .portafolio-titulo,
+    .portafolio-texto {
+      color: #000000;
+      font-size: 32px;
+
+      text-align: center;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    }
+    .titulo_map h1 {
+      color: #ffffff;
+      font-size: 36px;
+      text-align: center;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
